@@ -7,7 +7,7 @@ This file provides guidance to AI coding assistants (e.g., Claude Code, GitHub C
 
 ## Project Overview
 
-Browser is an AI web automation Chrome extension that runs multi-agent systems locally in the browser. Based on Nanobrowser (Apache-2.0), it supports multiple LLM providers (OpenAI, Anthropic, Gemini, Ollama, etc.).
+Browser is an AI web automation Chrome extension that runs multi-agent systems locally in the browser. (Apache-2.0), it supports multiple LLM providers (OpenAI, Anthropic, Gemini, Ollama, etc.).
 
 ## Development Commands
 

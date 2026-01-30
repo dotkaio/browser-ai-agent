@@ -45,7 +45,7 @@ function MessageBlock({ message, isSameActor, isDarkMode = false }: MessageBlock
       }`}>
       {!isSameActor && (
         <div
-          className="flex size-8 shrink-0 items-center justify-center rounded-full"
+          className="flex size-8 shrink-0 items-center justify-center"
           style={{ backgroundColor: actor.iconBackground }}>
           <img src={actor.icon} alt={actor.name} className="size-6" />
         </div>

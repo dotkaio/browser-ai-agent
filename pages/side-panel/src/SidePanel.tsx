@@ -1013,7 +1013,7 @@ const SidePanel = () => {
                 {t('nav_back')}
               </button>
             ) : (
-              <span className="text-sm font-semibold ${isDarkMode ? 'text-slate-300' : 'text-slate-600'}">Browser</span>
+              <span className={`text-sm font-semibold ${isDarkMode ? 'text-slate-300' : 'text-slate-600'}`}>K's Extension</span>
             )}
           </div>
           <div className="header-icons">
@@ -1068,7 +1068,7 @@ const SidePanel = () => {
               <div
                 className={`flex flex-1 items-center justify-center p-8 ${isDarkMode ? 'text-slate-300' : 'text-slate-600'}`}>
                 <div className="text-center">
-                  <div className="mx-auto mb-4 size-8 animate-spin rounded-full border-2 border-slate-500 border-t-transparent"></div>
+                  <div className="mx-auto mb-4 size-8 animate-spin border-2 border-slate-500 border-t-transparent"></div>
                   <p>{t('status_checkingConfig')}</p>
                 </div>
               </div>
@@ -1085,7 +1085,7 @@ const SidePanel = () => {
                   <p className="mb-4">{t('welcome_instruction')}</p>
                   <button
                     onClick={() => chrome.runtime.openOptionsPage()}
-                    className={`my-4 rounded-lg px-4 py-2 font-medium transition-colors ${isDarkMode ? 'bg-slate-600 text-white hover:bg-slate-500' : 'bg-slate-700 text-white hover:bg-slate-600'
+                    className={`my-4 px-4 py-2 font-medium transition-colors ${isDarkMode ? 'bg-slate-600 text-white hover:bg-slate-500' : 'bg-slate-700 text-white hover:bg-slate-600'
                       }`}>
                     {t('welcome_openSettings')}
                   </button>
@@ -1116,7 +1116,7 @@ const SidePanel = () => {
                   </div>
                 )}
                 <div
-                  className={`border-t ${isDarkMode ? 'border-slate-700' : 'border-slate-200'} p-2 shadow-sm backdrop-blur-sm`}>
+                  className={`border-t ${isDarkMode ? 'border-slate-700' : 'border-slate-200'}`}>
                   <ChatInput
                     onSendMessage={handleSendMessage}
                     onStopTask={handleStopTask}

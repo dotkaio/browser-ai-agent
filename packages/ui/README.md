@@ -210,8 +210,8 @@ const shadcnConfig = {
       },
       borderRadius: {
         lg: `var(--radius)`,
-        md: `calc(var(--radius) - 2px)`,
-        sm: 'calc(var(--radius) - 4px)',
+        md: `calc(var(--radius) - 1px)`,
+        sm: 'calc(var(--radius) - 1px)',
       },
       fontFamily: {
         sans: ['var(--font-sans)', ...fontFamily.sans],
@@ -276,7 +276,7 @@ This configuration also comes from the manual guide. You can refer to the manual
 
         --ring: 215 20.2% 65.1%;
 
-        --radius: 0.5rem;
+        --radius: 0.0rem;
     }
 
     .dark {
@@ -309,7 +309,7 @@ This configuration also comes from the manual guide. You can refer to the manual
 
         --ring: 216 34% 17%;
 
-        --radius: 0.5rem;
+        --radius: 0rem;
     }
 }
 

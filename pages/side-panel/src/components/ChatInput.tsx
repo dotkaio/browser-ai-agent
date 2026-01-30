@@ -88,7 +88,7 @@ export default function ChatInput({
   return (
     <form
       onSubmit={handleSubmit}
-      className={`overflow-hidden rounded-lg border transition-colors ${disabled ? 'cursor-not-allowed' : 'focus-within:border-slate-500 hover:border-slate-500'} ${isDarkMode ? 'border-slate-700' : ''}`}
+      className={`overflow-hidden rounded-sm border transition-colors ${disabled ? 'cursor-not-allowed' : 'focus-within:border-slate-500 hover:border-slate-500'} ${isDarkMode ? 'border-slate-700' : ''}`}
       aria-label={t('chat_input_form')}>
       <div className="flex flex-col">
         <textarea

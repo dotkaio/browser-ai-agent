@@ -1,13 +1,13 @@
 /* Add this at the top of the file */
 body {
-  border-color: #64748b !important;
+  /* border-color: #64748b !important; */
   /* slate-500 color */
 }
 
 /* Remove unused classes: .App, .App-logo, .App-header */
 
 code {
-  background: rgba(148, 163, 184, 0.2);
+  /* background: rgba(148, 163, 184, 0.2); */
   /* border-radius: 0.25rem; */
   /* padding: 0.2rem 0.5rem; */
   color: #475569;
@@ -61,7 +61,7 @@ code {
   align-items: center;
   padding: 0.75rem;
   background-color: transparent;
-  border-bottom: 1px solid rgba(100, 116, 139, 0.2);
+  border-bottom: 1px solid rgba(100, 116, 139, 0);
 }
 
 /* Dark mode header border */
@@ -141,12 +141,12 @@ code {
 /* Dark mode scrollbar for scrollbar-gutter-stable */
 @media (prefers-color-scheme: dark) {
   .scrollbar-gutter-stable::-webkit-scrollbar-track {
-    background: #1e293b;
+    background: #1d1d1d;
     /* slate-800 */
   }
 
   .scrollbar-gutter-stable::-webkit-scrollbar-thumb {
-    background: #475569;
+    background: #47556900;
     /* slate-600 */
   }
 
