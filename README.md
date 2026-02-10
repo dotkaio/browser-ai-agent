@@ -112,16 +112,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute.
 
 If you discover a security vulnerability, please report it responsibly. See [SECURITY.md](SECURITY.md) for details.
 
-## Acknowledgments
-
-This project is based on [Nanobrowser](https://github.com/nanobrowser/nanobrowser) (Apache-2.0) and builds on other open-source projects:
-
-- [Nanobrowser](https://github.com/nanobrowser/nanobrowser) - Original upstream project
-- [Browser Use](https://github.com/browser-use/browser-use)
-- [Puppeteer](https://github.com/puppeteer/puppeteer)
-- [Chrome Extension Boilerplate](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite)
-- [LangChain](https://github.com/langchain-ai/langchainjs)
-
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
